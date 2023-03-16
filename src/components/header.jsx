@@ -3,7 +3,7 @@ import React from 'react';
 function Header(){
     return(
         <div className='header'>
-            <div className='bannerImage'></div>
+            <div className='bannerImage'>lsdahlh</div>
         </div>
         
     )
