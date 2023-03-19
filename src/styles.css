@@ -6,6 +6,9 @@ body{
     width: 100%;
     height: 65vh;
 }
+.heading{
+    font-weight: bold;
+}
 .bannerImage{
     color: white;
     height: 100%;
@@ -30,8 +33,9 @@ body{
     align-items: center;
 }
 .logoElement{
-    color: #DF2E38;
+    color: white;
     font-size: 30px;
+    font-family: 'Lobster', cursive;
     margin-left: 30px;
 }
 .loginElement:hover{
@@ -49,6 +53,7 @@ body{
 .ourServicesWrapper{
     width: 70%;
     margin: auto;
+    margin-top: 50px;
 }
 .ourServices{
     display: flex;
@@ -56,8 +61,121 @@ body{
     flex-wrap: wrap;
     justify-content: center;
 }
+.ourServices a{
+    text-decoration: none;
+    color: black;
+}
 .card{
-    min-width: 150px;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    border: 1px solid #cfcfcf;
+    width: 200px;
     margin: 5px;
-    
+}
+.card:hover{
+    transition: 0.4s;
+    box-shadow: 0 0 15px 5px gray;
+}
+.card img{
+    width: 200px;
+    border-radius: 10px 10px 0 0;
+}
+.card div{
+    font-size: 24px;
+}
+.popularWrapper{
+    width: 70%;
+    margin: auto;
+    margin-top: 70px;
+}
+.popular{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.popular img{
+    width: 30vw;
+}
+.popularHeading{
+    margin-top: 50px;
+    font-size: 40px;
+}
+.popularContent{
+    font-size: 20px;
+}
+.orderNav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 70px;
+    align-items: center;
+    background-color: #DF2E38;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.profileElement{
+    margin-right: 30px;
+    display: flex;
+    gap: 5px;
+    font-size: 20px;
+}
+.profileElement img{
+    width: 30px;
+}
+
+.restrauntsWrapper{    
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.restrauntHeading{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.restCardWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    gap: 30px;
+    justify-content: center;
+}
+.restCard{
+    padding: 6px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+.restCard img{
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.restContent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.restName{
+    font-size: 20px;
+}
+.rating{
+    background-color: green;
+    padding: 2px 4px 2px 4px;
+    border-radius: 5px;
+    color: white;
+}
+.restCard:hover{
+    transition: 0.4s;
+    box-shadow: 0 0 15px 5px gray;
 }
