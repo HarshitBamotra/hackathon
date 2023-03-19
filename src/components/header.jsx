@@ -1,11 +1,13 @@
 import React from 'react';
-
+import NavBar from './Nav';
 function Header(){
     return(
         <div className='header'>
-            <div className='bannerImage'>lsdahlh</div>
+            <NavBar></NavBar>
+            <div className='bannerImage'>
+                <div className='heading'>WELCOME TO HANGRY</div>
+            </div>
         </div>
-        
     )
 }
 
