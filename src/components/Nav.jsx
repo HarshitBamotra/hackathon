@@ -4,9 +4,9 @@ function NavBar(){
     return(
         <div className='navBar'>
             <div className='logoElement'>HANGRY</div>
-            <div className='loginElement'>
+            <a className='loginElement' href='/login'>
                 Log in/ Sign up
-            </div>
+            </a>
         </div>
     )
 }
